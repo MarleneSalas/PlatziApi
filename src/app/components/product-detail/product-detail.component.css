@@ -1,0 +1,6 @@
+mat-card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain; /* or object-fit: cover; depending on your preference */
+  }

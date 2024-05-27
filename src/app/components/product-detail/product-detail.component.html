@@ -1,0 +1,17 @@
+<!-- product-detail.component.html -->
+
+<div class="product-detail">
+    <mat-card class="product-card">
+      <mat-card-header>
+        <mat-card-title>{{ product.title }}</mat-card-title>
+        <mat-card-subtitle>Category: {{ product.category.name }}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image [src]="product.images[0]" alt="{{ product.title }}">
+      <mat-card-content>
+        <p>Description: {{ product.description }}</p>
+        <p>Price: {{ product.price }}</p>
+        <!-- Agrega aquí más detalles del producto si es necesario -->
+      </mat-card-content>
+      <!-- Aquí puedes agregar botones adicionales o acciones relacionadas con el producto -->
+    </mat-card>
+  </div>
